@@ -3,7 +3,12 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default function heroSection() {
   return (
-    <Carousel autoPlay={true} infiniteLoop={true}>
+    <Carousel
+      showStatus={false}
+      autoFocus={true}
+      autoPlay={true}
+      infiniteLoop={true}
+    >
       {/* component one */}
       <div className="sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
         <div>
