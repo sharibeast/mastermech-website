@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Create Next App</title>
+        <title>mastermech-international-company</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />

@@ -8,10 +8,10 @@ import toshiba from "../public/assets/images/toshiba.png";
 export default function clients() {
   return (
     <div className="flex mt-32 justify-around space-x-24">
-      <Image src={camusat} height={200} width={200} />
-      <Image src={iom} height={200} width={200} />
-      <Image src={tanesco} height={200} width={200} />
-      <Image src={toshiba} height={200} width={200} />
+      <Image src={camusat} />
+      <Image src={iom} />
+      <Image src={tanesco} />
+      <Image src={toshiba} height={100} width={100} />
     </div>
   );
 }

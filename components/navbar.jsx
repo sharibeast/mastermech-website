@@ -24,7 +24,7 @@ export default function Nav() {
               title="Our product"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Product
+              Home
             </a>
           </li>
           <li>
@@ -34,7 +34,7 @@ export default function Nav() {
               title="Our product"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Features
+              Services
             </a>
           </li>
           <li>
@@ -44,7 +44,7 @@ export default function Nav() {
               title="Product pricing"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Pricing
+              About
             </a>
           </li>
           <li>
@@ -54,7 +54,7 @@ export default function Nav() {
               title="About us"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              About us
+              Contact
             </a>
           </li>
         </ul>
