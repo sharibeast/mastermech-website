@@ -1,47 +1,72 @@
 import React from "react";
 import { Carousel } from "react-responsive-carousel";
+import Image from "next/image";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default function heroSection() {
+  const data = [
+    {
+      id: 3,
+      summary: "Every engagement with you is partnership not a business deal",
+      image: require("../public/assets/images/negotiation.jpeg"),
+    },
+    {
+      id: 1,
+      summary: "Every engament with you is partnership not a business deal",
+      image: require("../public/assets/images/photo1.jpg"),
+    },
+    {
+      id: 2,
+      summary:
+        "We specialize in provision of excellence services from suppy,installation and maintenance of office and industrial equipements",
+      image: require("../public/assets/images/photo3.jpg"),
+    },
+
+    {
+      id: 4,
+      summary: "dummy1",
+      image: require("../public/assets/images/offic.jpeg"),
+    },
+    {
+      id: 5,
+      summary: "dummy2",
+      image: require("../public/assets/images/office.jpeg"),
+    },
+    {
+      id: 6,
+      summary: "dummy3",
+      image: require("../public/assets/images/officedummy.jpeg"),
+    },
+  ];
   return (
     <Carousel
       showStatus={false}
       autoFocus={true}
       autoPlay={true}
       infiniteLoop={true}
+      showThumbs={false}
     >
-      {/* component one */}
-      <div className="sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
-        <div>
-          <img
-            className="object-cover md:max-w-full w-full h-56 sm:h-96"
-            src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
-            alt=""
-          />
-        </div>
-        <div className="absolute inset-40 inset-x-4">
-          <h1 className="text-custom-white font-bold lg:text-5xl text-2xl inset-y-4">
-            Every engament with you <br />
-            is partener ship not a business deal
-          </h1>
-        </div>
-      </div>
-
-      {/* components two */}
-      <div className="sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
-        <div>
-          <img
-            className="object-cover md:max-w-full w-full h-56 sm:h-96"
-            src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
-            alt=""
-          />
-        </div>
-        <div className="absolute inset-40 inset-x-4">
-          <h1 className="text-custom-white font-bold lg:text-5xl text-2xl inset-y-4">
-            Comp two with you <br />
-            is partener ship not a business deal
-          </h1>
-        </div>
-      </div>
+      {data.map((data) => {
+        return (
+          <div
+            id="home"
+            className="sm:max-w-xl  lg:h-[calc(100vh-10px)] md:max-w-full h-80 lg:max-w-screen-xl"
+          >
+            <div>
+              <Image
+                layout="fill"
+                className="object-cover md:max-w-full w-full h-56 sm:h-96"
+                src={data.image}
+                alt=""
+              />
+            </div>
+            <div className="absolute text-custom-blue font-bold inset-40 inset-x-4">
+              <h1 className="text-custom-white font-bold lg:text-5xl text-2xl inset-y-4">
+                {data.summary} <br />
+              </h1>
+            </div>
+          </div>
+        );
+      })}
     </Carousel>
   );
 }

@@ -5,6 +5,8 @@ import Service from "../components/service";
 import About from "../components/about";
 import Clients from "../components/clients";
 import Team from "../components/team";
+import Footer from "../components/footer";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 export default function Home() {
   return (
@@ -19,6 +21,7 @@ export default function Home() {
       <About />
       <Team />
       <Clients />
+      <Footer id="footer" />
     </div>
   );
 }

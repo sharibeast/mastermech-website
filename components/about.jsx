@@ -7,7 +7,7 @@ import Mission from "./mission";
 
 export default function about() {
   return (
-    <div className="container h-screen px-5 py-24 mx-auto">
+    <div id="about" className="container px-5 py-24 mx-auto">
       <h3 className="text-center text-custom-blue font-bold text-2xl">About</h3>
       <div className="mt-10 flex flex-wrap -mx-4 -mb-10">
         <div className="sm:w-1/2 mb-10 px-4">
@@ -19,7 +19,7 @@ export default function about() {
             />
           </div>
         </div>
-        <div className="sm:w-1/2 mb-10 px-4">
+        <div className="sm:w-1/2  px-4">
           <Mission src={rocket} />
           <Mission src={target} />
         </div>
