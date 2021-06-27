@@ -10,25 +10,14 @@ export default function heroSection() {
       image: require("../public/assets/images/negotiation.jpeg"),
     },
     {
-      id: 1,
-      summary: "Every engament with you is partnership not a business deal",
-      image: require("../public/assets/images/photo1.jpg"),
-    },
-    {
       id: 2,
       summary:
         "We specialize in provision of excellence services from suppy,installation and maintenance of office and industrial equipements",
-      image: require("../public/assets/images/photo3.jpg"),
-    },
-
-    {
-      id: 4,
-      summary: "dummy1",
-      image: require("../public/assets/images/offic.jpeg"),
+      image: require("../public/assets/images/electrical.jpeg"),
     },
     {
       id: 5,
-      summary: "dummy2",
+      summary: "We supply and provide service of office equipment",
       image: require("../public/assets/images/office.jpeg"),
     },
     {

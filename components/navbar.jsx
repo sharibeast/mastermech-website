@@ -7,7 +7,7 @@ export default function Nav() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <div className=" md:w-full px-2 bg-custom-blue text-custom-white py-1   md:max-w-full lg:max-w-screen-xl lg:px-8">
+    <div className=" fixed z-50 inset-x-0 md:w-full px-2 bg-custom-blue text-custom-white py-1   md:max-w-full  lg:px-8">
       <div className="relative flex items-center justify-between">
         <a
           href="/"
@@ -19,7 +19,7 @@ export default function Nav() {
             onClick={() => {
               scroll.scrollToTop();
             }}
-            className=" text-white text-xl font-bold tracking-wide  lg:block text-gray-800 uppercase"
+            className=" text-white text-xl items-center md:flex lg:flex flex font-bold tracking-wide  lg:block text-gray-800 uppercase"
           >
             <Image src={logo} width={40} height={40} /> <br />
             <span className="">MATERMERCH</span>
@@ -89,7 +89,7 @@ export default function Nav() {
             </svg>
           </button>
           {isMenuOpen && (
-            <div className="absolute transition-all p-10 duration-100 top-16 z-40 right-[-8px] h-96 w-1/2 bg-custom-blue">
+            <div className="absolute transition-all p-10 duration-100 top-10 z-40 right-[-8px] h-96 w-1/2 bg-custom-blue">
               <div className="flex flex-col justify-between ">
                 <Link
                   to="services"

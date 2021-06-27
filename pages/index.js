@@ -21,7 +21,7 @@ export default function Home() {
       <About />
       <Team />
       <Clients />
-      <Footer id="footer" />
+      <Footer />
     </div>
   );
 }
