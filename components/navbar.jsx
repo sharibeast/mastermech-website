@@ -89,12 +89,13 @@ export default function Nav() {
             </svg>
           </button>
           {isMenuOpen && (
-            <div className="absolute transition-all duration-100 top-16 z-40 right-[-8px] w-1/2 bg-custom-blue">
-              <div className="flex flex-col justify-between">
+            <div className="absolute transition-all p-10 duration-100 top-16 z-40 right-[-8px] h-96 w-1/2 bg-custom-blue">
+              <div className="flex flex-col justify-between ">
                 <Link
                   to="services"
                   onClick={() => setIsMenuOpen(false)}
                   smooth={true}
+                  className="mb-7"
                 >
                   <a
                     aria-label="Our product"
@@ -109,6 +110,7 @@ export default function Nav() {
                   onClick={() => setIsMenuOpen(false)}
                   smooth={true}
                   duration={2000}
+                  className="mb-7"
                 >
                   <a
                     href="/"
@@ -124,6 +126,7 @@ export default function Nav() {
                   to="team"
                   smooth={true}
                   duration={2000}
+                  className="mb-7"
                 >
                   <a
                     aria-label="Product pricing"
@@ -138,6 +141,7 @@ export default function Nav() {
                   to="footer"
                   smooth={true}
                   duration={3000}
+                  className="mb-7"
                 >
                   <a
                     href="/footer"
