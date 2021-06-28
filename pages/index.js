@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>mastermech-international-company</title>
+        <title>mastermech-international-ltd</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Nav />
