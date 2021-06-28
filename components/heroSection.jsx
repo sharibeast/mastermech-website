@@ -37,6 +37,7 @@ export default function heroSection() {
       {data.map((data) => {
         return (
           <div
+            key={data.id}
             id="home"
             className="sm:max-w-xl  lg:h-[calc(100vh-10px)] md:max-w-full h-80 lg:max-w-screen-xl"
           >

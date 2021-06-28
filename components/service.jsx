@@ -159,7 +159,7 @@ export default function service() {
             {/* start of cards */}
             {cards.map((data) => {
               return (
-                <div className="p-4 lg:w-1/2">
+                <div key={data.id} className="p-4 lg:w-1/2">
                   <div className="h-full shadow-md hover:translate-y-1 hover:transition-all hover:shadow-lg overflow-hidden">
                     <h3 className=" text-custom-blue text-xl font-bold">
                       {data.activity}
@@ -177,19 +177,14 @@ export default function service() {
                       <ul>
                         {data.list.map((list) => {
                           return (
-                            <IconContext.Provider
-                              value={{
-                                color: "#065f78",
-                                className: "bg-custom-blue",
-                              }}
-                            >
+                            <>
                               <li className="flex" key={list.id}>
                                 <TiTick />
                                 <p className="leading-relaxed mb-3">
                                   {list.descripton}
                                 </p>
                               </li>
-                            </IconContext.Provider>
+                            </>
                           );
                         })}
                       </ul>
@@ -225,7 +220,7 @@ export default function service() {
             {/* start of cards */}
             {engCards.map((data) => {
               return (
-                <div className="p-4 lg:w-1/2">
+                <div eye={data.id} className="p-4 lg:w-1/2">
                   <div className="h-full shadow-md hover:translate-y-1 hover:transition-all hover:shadow-lg overflow-hidden">
                     <h3 className=" text-custom-blue text-xl font-bold">
                       {data.activity}
