@@ -1,8 +1,10 @@
 import React, { useState } from "react";
+import { TiTick } from "react-icons/ti";
 import Image from "next/image";
 import Office from "../public/assets/images/office.jpeg";
 import Electical from "../public/assets/images/electrical.jpeg";
 import { data } from "autoprefixer";
+import { IconContext } from "react-icons";
 
 export default function service() {
   const generalServices = [
@@ -172,14 +174,22 @@ export default function service() {
                       />
                     </div>
                     <div className="p-6">
-                      <ul className="list-disc">
+                      <ul>
                         {data.list.map((list) => {
                           return (
-                            <li key={list.id}>
-                              <p className="leading-relaxed mb-3">
-                                {list.descripton}
-                              </p>
-                            </li>
+                            <IconContext.Provider
+                              value={{
+                                color: "#065f78",
+                                className: "bg-custom-blue",
+                              }}
+                            >
+                              <li className="flex" key={list.id}>
+                                <TiTick />
+                                <p className="leading-relaxed mb-3">
+                                  {list.descripton}
+                                </p>
+                              </li>
+                            </IconContext.Provider>
                           );
                         })}
                       </ul>
