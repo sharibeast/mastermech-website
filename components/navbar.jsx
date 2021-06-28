@@ -16,7 +16,7 @@ export default function Nav() {
           className=" text-white text-xl items-center md:flex lg:flex flex font-bold tracking-wide  lg:block text-gray-800 uppercase"
         >
           <Image src={logo} width={40} height={40} /> <br />
-          <span className="ml-4">MATERMERCH</span>
+          <span className="ml-4">MASTERMERCH</span>
         </span>
 
         <ul className="flex items-center hidden space-x-8 lg:flex">
