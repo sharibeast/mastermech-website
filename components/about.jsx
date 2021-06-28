@@ -20,8 +20,23 @@ export default function about() {
           </div>
         </div>
         <div className="sm:w-1/2  px-4">
-          <Mission src={rocket} />
-          <Mission src={target} />
+          <Mission
+            src={rocket}
+            title="our mission"
+            description="To help Customers build a
+            reliable, secure, manageable
+            and flexible infrastructure that
+            establishes a foundation for
+            Clients to meet their business
+            objective."
+            height="300"
+          />
+          <Mission
+            src={target}
+            title="our objective"
+            width="1000"
+            description="Our objectives are to assist clients with various implementations of their projects, and we have confidence in our ability to generate the consensus and commitments necessary to succeed. We are prepared to stand behind our recommendations and to assist our clients with obtaining appropriate approvals to proceed"
+          />
         </div>
       </div>
     </div>
