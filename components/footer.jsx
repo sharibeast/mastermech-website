@@ -9,23 +9,23 @@ export default function Footer() {
   return (
     <div
       id="footer"
-      class="px-4 bg-custom-blue pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
+      className="px-4 bg-custom-blue pt-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8"
     >
-      <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
-        <div class="sm:col-span-2">
+      <div className="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="sm:col-span-2">
           <a
             href="/"
             aria-label="Go home"
             title="Company"
-            class="inline-flex items-center"
+            className="inline-flex items-center"
           >
             <Image src={logo} height={50} width={50} />
-            <span class="ml-2 text-xl font-bold tracking-wide  uppercase">
+            <span className="ml-2 text-xl font-bold tracking-wide  uppercase">
               MASTERMECH
             </span>
           </a>
-          <div class="mt-6 lg:max-w-sm">
-            <p class="text-sm lg:text-base text-gray-800">
+          <div className="mt-6 lg:max-w-sm">
+            <p className="text-sm lg:text-base text-gray-800">
               MASTERMECH INTERNATIONAL Limited specializes in provision of
               excellence services ranging from supply,installation and
               maintenance of office and Industrial equipment.The company works
@@ -34,52 +34,52 @@ export default function Footer() {
             </p>
           </div>
         </div>
-        <div class="space-y-2 text-sm lg:text-base">
-          <p class="text-base font-bold tracking-wide text-gray-900">
+        <div className="space-y-2 text-sm lg:text-base">
+          <p className="text-base font-bold tracking-wide text-gray-900">
             Contacts
           </p>
-          <div class="flex">
-            <p class="mr-1 text-gray-800">Phone:</p>
+          <div className="flex">
+            <p className="mr-1 text-gray-800">Phone:</p>
             <a
               href="tel:+255715821322"
               aria-label="Our phone"
               title="Our phone"
-              class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
               +255715821322
             </a>
           </div>
-          <div class="flex">
-            <p class="mr-1 text-gray-800">Phone:</p>
+          <div className="flex">
+            <p className="mr-1 text-gray-800">Phone:</p>
             <a
               href="tel:+255752028480"
               aria-label="Our phone"
               title="Our phone"
-              class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
               +255752028480
             </a>
           </div>
-          <div class="flex">
-            <p class="mr-1 text-gray-800">Email:</p>
+          <div className="flex">
+            <p className="mr-1 text-gray-800">Email:</p>
             <a
               href="mailto:mastermechinternational@gmail.com"
               aria-label="Our email"
               title="Our email"
-              class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
               mastermechinternational@gmail.com
             </a>
           </div>
-          <div class="flex">
-            <p class="mr-1 text-gray-800">Address:</p>
+          <div className="flex">
+            <p className="mr-1 text-gray-800">Address:</p>
             <a
               href="https://www.google.com/maps"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Our address"
               title="Our address"
-              class="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
+              className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
               P.O BOX 80319 Nkurumah street, Dar es salaam
             </a>
@@ -123,7 +123,7 @@ export default function Footer() {
         </div> */}
       </div>
 
-      <div class="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
+      <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
         <GrLinkTop
           height={400}
           onClick={() => {
@@ -131,7 +131,7 @@ export default function Footer() {
           }}
           className={iconStyles}
         />{" "}
-        <p class="text-sm text-gray-600">
+        <p className="text-sm text-gray-600">
           © Copyright {new Date().getFullYear()} Mastermech international
           company ltd. All rights reserved.
         </p>
