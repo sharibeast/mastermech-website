@@ -9,12 +9,6 @@ export default function Nav() {
   return (
     <div className=" fixed z-50 inset-x-0 md:w-full px-2 bg-custom-blue text-custom-white py-1   md:max-w-full  lg:px-8">
       <div className="relative flex items-center justify-between">
-        {/* <a
-          href="/"
-          aria-label="Company"
-          title="Company"
-          className="inline-flex items-center"
-        > */}
         <span
           onClick={() => {
             scroll.scrollToTop();
@@ -22,7 +16,7 @@ export default function Nav() {
           className=" text-white text-xl items-center md:flex lg:flex flex font-bold tracking-wide  lg:block text-gray-800 uppercase"
         >
           <Image src={logo} width={40} height={40} /> <br />
-          <span className="">MATERMERCH</span>
+          <span className="ml-4">MATERMERCH</span>
         </span>
 
         <ul className="flex items-center hidden space-x-8 lg:flex">

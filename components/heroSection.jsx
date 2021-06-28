@@ -20,11 +20,6 @@ export default function heroSection() {
       summary: "We supply and provide service of office equipment",
       image: require("../public/assets/images/office.jpeg"),
     },
-    {
-      id: 6,
-      summary: "dummy3",
-      image: require("../public/assets/images/officedummy.jpeg"),
-    },
   ];
   return (
     <Carousel
