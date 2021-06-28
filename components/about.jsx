@@ -22,7 +22,7 @@ export default function about() {
         <div className="sm:w-1/2  px-4">
           <Mission
             src={rocket}
-            title="our mission"
+            title="Our mission"
             description="To help Customers build a
             reliable, secure, manageable
             and flexible infrastructure that
@@ -33,7 +33,7 @@ export default function about() {
           />
           <Mission
             src={target}
-            title="our objective"
+            title="Our objective"
             width="1000"
             description="Our objectives are to assist clients with various implementations of their projects, and we have confidence in our ability to generate the consensus and commitments necessary to succeed. We are prepared to stand behind our recommendations and to assist our clients with obtaining appropriate approvals to proceed"
           />

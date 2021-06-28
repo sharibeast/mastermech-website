@@ -10,18 +10,18 @@ export default function service() {
   const generalServices = [
     {
       id: 1,
-      activity: "supply and service of office equipment",
+      activity: "Supply and service of office equipment",
       image: require("../public/assets/images/office.jpeg"),
       list: [
         {
           id: 1,
           descripton:
-            "office stationaries,printers and scanning machine,photocopy machine",
+            "Office stationaries,printers and scanning machine,photocopy machine",
         },
         {
           id: 2,
           descripton:
-            "note counting machines,note binding machine,strapping machine,fire proof filling cabinet",
+            "Note counting machines,note binding machine,strapping machine,fire proof filling cabinet",
         },
         {
           id: 1,
@@ -32,7 +32,7 @@ export default function service() {
     },
     {
       id: 2,
-      activity: "supply of firefighting equipement and system",
+      activity: "Supply of firefighting equipement and system",
       image: require("../public/assets/images/photo3.jpg"),
       list: [
         {
@@ -45,13 +45,13 @@ export default function service() {
     {
       id: 3,
       activity:
-        "supply and service of AC,generators,construction machines and power backup systems",
+        "Supply and service of AC,generators,construction machines and power backup systems",
       image: require("../public/assets/images/photo4.jpg"),
       list: [
         {
           id: 1,
           descripton:
-            "supply and offer maintenance services of air conditioners,generators as well as construction moving throught Tanzania",
+            "Supply and offer maintenance services of air conditioners,generators as well as construction moving throught Tanzania",
         },
         {
           id: 2,
@@ -62,7 +62,7 @@ export default function service() {
     },
     {
       id: 4,
-      activity: "supply of furnitures and alluminium profile",
+      activity: "Supply of furnitures and alluminium profile",
       image: require("../public/assets/images/photo5.jpg"),
       list: [
         {
@@ -73,7 +73,7 @@ export default function service() {
         {
           id: 2,
           descripton:
-            "frameless glass doors,showers cubicles, installation of curtains and ceiling(pvc,gypsum and suspended)",
+            "Frameless glass doors,showers cubicles, installation of curtains and ceiling(pvc,gypsum and suspended)",
         },
       ],
     },
@@ -110,9 +110,9 @@ export default function service() {
           descripton:
             "Equipement installation and erection mechanical super structure and sub structure",
         },
-        { id: 3, descripton: "lifting and machines hiring" },
+        { id: 3, descripton: "Lifting and machines hiring" },
         { id: 4, descripton: "Plumbing" },
-        { id: 5, descripton: "insulation" },
+        { id: 5, descripton: "Insulation" },
       ],
     },
     {
@@ -122,7 +122,7 @@ export default function service() {
       list: [
         {
           id: 1,
-          descripton: "new electrical installation on buildings",
+          descripton: "New electrical installation on buildings",
         },
         {
           id: 2,
