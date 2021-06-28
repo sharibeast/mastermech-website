@@ -23,7 +23,7 @@ export default function about() {
           <Mission
             src={rocket}
             title="Our mission"
-            description="To help Customers build a
+            description="To help customers build a
             reliable, secure, manageable
             and flexible infrastructure that
             establishes a foundation for

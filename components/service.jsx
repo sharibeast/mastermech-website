@@ -1,27 +1,23 @@
 import React, { useState } from "react";
 import { TiTick } from "react-icons/ti";
 import Image from "next/image";
-import Office from "../public/assets/images/office.jpeg";
-import Electical from "../public/assets/images/electrical.jpeg";
-import { data } from "autoprefixer";
-import { IconContext } from "react-icons";
 
 export default function service() {
   const generalServices = [
     {
       id: 1,
-      activity: "Supply and service of office equipment",
+      activity: "Supply and service of office equipments",
       image: require("../public/assets/images/office.jpeg"),
       list: [
         {
           id: 1,
           descripton:
-            "Office stationaries,printers and scanning machine,photocopy machine",
+            "Office stationaries,printers and scanning machines,photocopy machines",
         },
         {
           id: 2,
           descripton:
-            "Note counting machines,note binding machine,strapping machine,fire proof filling cabinet",
+            "Note counting machines,note binding machines,strapping machines,fire proof filling cabinets",
         },
         {
           id: 1,
@@ -145,7 +141,7 @@ export default function service() {
             Services
           </h1>
           <p>
-            MasterMech International ltd offer fully comprehensive Services to
+            MasterMech International ltd offer fully comprehensive services to
             our customers and we are Confident that we can deliver and
             co-ordinate the full service required to each individual customers,
             whether it is straight forward or challenging request. Our services
@@ -207,7 +203,7 @@ export default function service() {
           </h1>
           <p>
             MasterMech International ltd offer fully comprehensive Services to
-            our customers and we are Confident that we can deliver and
+            our customers and we are confident that we can deliver and
             co-ordinate the full service required to each individual customers,
             whether it is straight forward or challenging request. Our services
             divided into sections comprises of General services and Engineering
