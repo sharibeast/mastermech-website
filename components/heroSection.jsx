@@ -13,12 +13,18 @@ export default function heroSection() {
       id: 2,
       summary:
         "We specialize in provision of excellence services from suppy,installation and maintenance of office and industrial equipements",
-      image: require("../public/assets/images/electrical.jpeg"),
+      image: require("../public/assets/images/installation.jpeg"),
     },
     {
       id: 5,
       summary: "We supply and provide service of office equipment",
-      image: require("../public/assets/images/office.jpeg"),
+      image: require("../public/assets/images/office-eq.jpeg"),
+    },
+    {
+      id: 6,
+      summary:
+        "We specialize equipement installation and erection mechanical super structure and sub structure ,lifting and machines hiring",
+      image: require("../public/assets/images/welding.jpeg"),
     },
   ];
   return (
