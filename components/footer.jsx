@@ -68,7 +68,7 @@ export default function Footer() {
               title="Our email"
               className="transition-colors duration-300 text-deep-purple-accent-400 hover:text-deep-purple-800"
             >
-              mastermechinternational@gmail.com
+              info@mastermech-int.com
             </a>
           </div>
           <div className="flex">

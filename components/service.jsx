@@ -174,7 +174,7 @@ export default function service() {
                         {data.list.map((list) => {
                           return (
                             <>
-                              <li className="flex" key={list.id}>
+                              <li className="flex items-center" key={list.id}>
                                 <TiTick />
                                 <p className="leading-relaxed mb-3">
                                   {list.descripton}
@@ -234,9 +234,9 @@ export default function service() {
                       <ul className="list-disc">
                         {data.list.map((list) => {
                           return (
-                            <li key={list.id} className="flex">
+                            <li key={list.id} className="flex items-center">
                               <TiTick />
-                              <p className="leading-relaxed mb-3">
+                              <p className="leading-relaxed items-end mb-3">
                                 {list.descripton}
                               </p>
                             </li>
