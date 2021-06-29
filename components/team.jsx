@@ -14,7 +14,7 @@ export default function Team() {
       id: 2,
       name: "Winnie Uronu",
       position: "Business development manager",
-      image: require("../public/assets/images/team1.jpg"),
+      image: require("../public/assets/images/winnie.jpg"),
     },
     {
       id: 3,
