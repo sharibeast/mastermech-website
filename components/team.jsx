@@ -44,7 +44,7 @@ export default function Team() {
                 <div className="flex flex-col items-center text-center">
                   <Image
                     alt="team"
-                    className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
+                    className="flex-shrink-0 hover:scale-110 duration-300 rounded-lg w-full h-56 object-cover object-center mb-4"
                     src={member.image}
                   />
                   <div className="w-full">

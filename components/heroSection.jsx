@@ -51,7 +51,7 @@ export default function heroSection() {
               />
             </div>
             <div className="absolute text-custom-blue font-bold inset-40 inset-x-4">
-              <h1 className="text-custom-white font-bold lg:text-5xl text-2xl inset-y-4">
+              <h1 className="animated  text-custom-white font-bold lg:text-5xl text-2xl inset-y-4">
                 {data.summary} <br />
               </h1>
             </div>

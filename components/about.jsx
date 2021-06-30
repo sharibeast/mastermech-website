@@ -14,7 +14,7 @@ export default function about() {
           <div className="rounded-lg  overflow-hidden">
             <Image
               alt="content"
-              className="object-cover object-center h-full w-full"
+              className="object-cover hover:scale-125 duration-500 object-center h-full w-full"
               src={Work}
             />
           </div>
