@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { TiTick } from "react-icons/ti";
 import Image from "next/image";
+import check from "../public/assets/icons/check.svg";
+import chevrons from "../public/assets/icons/chevrons.svg";
 
 export default function service() {
   const generalServices = [
@@ -162,7 +163,7 @@ export default function service() {
                     </h3>
                     <div className="mt-4">
                       <Image
-                        className="lg:h-48 md:h-36  w-full object-cover object-center"
+                        className="lg:h-48 md:h-36 hover:scale-150 duration-500  w-full object-cover object-center"
                         src={data.image}
                         alt="activites-done-by-company"
                         width={600}
@@ -175,7 +176,7 @@ export default function service() {
                           return (
                             <>
                               <li className="flex items-center" key={list.id}>
-                                <TiTick />
+                                <Image src={chevrons} />
                                 <p className="leading-relaxed mb-3">
                                   {list.descripton}
                                 </p>
@@ -223,7 +224,7 @@ export default function service() {
                     </h3>
                     <div className="mt-4">
                       <Image
-                        className="lg:h-48 md:h-36  w-full object-cover object-center"
+                        className="lg:h-48 md:h-36 hover:scale-150 duration-500  w-full object-cover object-center"
                         src={data.image}
                         alt="activites-done-by-company"
                         width={600}
@@ -235,7 +236,7 @@ export default function service() {
                         {data.list.map((list) => {
                           return (
                             <li key={list.id} className="flex items-center">
-                              <TiTick />
+                              <Image src={check} />
                               <p className="leading-relaxed items-end mb-3">
                                 {list.descripton}
                               </p>
