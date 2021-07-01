@@ -5,7 +5,7 @@ import Image from "next/image";
 import { GrLinkTop } from "react-icons/gr";
 
 export default function Footer() {
-  const iconStyles = "w-20 h-10 absolute right-0";
+  const iconStyles = "w-20 h-10 absolute right-0 shadown-lg text-white-custom";
   return (
     <div
       id="contact"
